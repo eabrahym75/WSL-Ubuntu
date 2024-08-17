@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Author : Me <me@foo.com>
-Date   : today
-Purpose: Rock the Casbah
+Author : Ibraheem Ayantola <ayantolaibraheemkehinde@gmail.com>
+Date   : 26/08/2024
+Purpose: Learning Python.
 """
 
 import argparse
