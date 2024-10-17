@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Author : ibraheem <ibraheem@localhost>
-Date   : 2024-08-01
+Author : Ayantola Ibraheem <ayantolaibraheemkehinde@gmail.com>
+Date   : 2024-10-17
 Purpose: Rock the Casbah
 """
 
@@ -16,7 +16,7 @@ def get_args():
         description='Rock the Casbah',
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
-    parser.add_argument('positional',
+    parser.add_argument('word',
                         metavar='str',
                         help='A positional argument')
 
@@ -58,7 +58,7 @@ def main():
     int_arg = args.int
     file_arg = args.file
     flag_arg = args.on
-    pos_arg = args.positional
+    pos_arg = args.word
 
     print(f'str_arg = "{str_arg}"')
     print(f'int_arg = "{int_arg}"')
